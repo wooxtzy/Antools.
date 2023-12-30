@@ -1,0 +1,85 @@
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.header__title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header__title-text {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.header__nav-item a {
+    transition: 0.3s all linear;
+    font-family: 'Pr';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 55%);
+}
+
+.header__nav-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.header__registration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+
+.header__registration__item {
+    font-family: 'Pr';
+    transition: 0.3s all linear;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 55%);
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.header__registration__sign {
+    font-family: 'Pr';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    transition: 0.3s all linear;
+    padding: 10px 26px;
+    border-radius: 8px;
+    border: 2px #ff6E30 solid;
+    background: #FF6E30;
+    color: #fff;
+}
+
+.header__nav-item a:hover {
+    color: #fff;
+}
+
+.header__registration__item:hover {
+    color: #fff;
+}
+
+.header__registration__sign:hover {
+    color: #ffffffb2;
+    background: #1E252B;
+}

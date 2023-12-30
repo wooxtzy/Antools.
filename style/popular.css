@@ -1,0 +1,154 @@
+.popular__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 456px;
+    width: 100%;
+    gap: 26px;
+    margin: 0 auto;
+}
+
+.popular {
+    padding: 200px 112px;
+}
+
+.popular__desc__title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+}
+
+.popular__desc__text {
+    color: rgb(255, 255, 255, 55%);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.popular__card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    opacity: 78%;
+    transition: 0.3s all linear;
+    border: 2px solid #1E252B;
+    padding: 34px;
+    border-radius: 15px;
+    max-width: 392px;
+    width: 100%;
+}
+
+.popular__cards__card__title {
+    display: flex;
+    gap: 40px;
+}
+
+.popular__cards__card-name {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.popular__cards__card-price {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFA537;
+}
+
+.popular__cards__card-desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffffb2;
+}
+
+.popular__cards__card-buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.popular__cards__card-icons {
+    display: flex;
+    gap: 28px;
+}
+
+.popular__cards__card-button {
+    padding: 8px 34px;
+    border: 2px solid #1E252B;
+    transition: 0.2s linear all;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.popular__cards__card-button:hover {
+    background: #FF6E30;
+    transform: translateY(-10px);
+    border: 2px solid #FF6E30;
+}
+
+.popular__card:hover {
+    opacity: 100%;
+    border: 2px solid #ffffff08;
+    transform: translateY(-20px);
+    background: url(../img/cardBG.png);
+
+}
+
+.svg-like {
+    fill: #fff;
+    transition: 0.3s linear all;
+}
+
+.svg-like:hover {
+    fill: #FD3B41;
+    fill-opacity: 100%;
+}
+
+.popular__cards__card-desc {
+    width: 326px;
+}
+
+.popular__cards__card-name {
+    width: 230px;
+}
+
+.popular__cards {
+    display: flex;
+    gap: 26px;
+    margin-top: 90px;
+    flex-wrap: wrap;
+}
+
+.popular__button a{
+    background: #1E252B;
+    padding: 18px 38px;
+    color: #FF6E30;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    border: 2px solid #283036;
+    border-radius: 8px;
+    margin-top: 100px;
+    transition: 0.3s all linear;
+}
+
+.popular__button{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.popular__button a:hover{
+    border: 2px solid #FF6E30;
+    color: #ffffffb2;
+    padding: 24px 42px;
+    background: #283036;
+}
+
+.popular__card:hover .popular__cards__card-button{
+    border: 2px solid #28303699;
+}

@@ -1,0 +1,79 @@
+.registration__email {
+    padding: 21px 16px;
+    display: flex;
+    align-items: center;
+    background: #283036;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 10%);
+    gap: 112px;
+    max-width: 554px;
+    width: 100%;
+    max-height: 64px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration__email-input {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.registration__email__input {
+    width: 190px;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 10%);
+    background: #283036;
+}
+
+.registration__email__button {
+    padding: 10px 34px;
+    border-radius: 8px;
+    border: 2px solid #FF6E30;
+    background: #FF6E30;
+    outline: none;
+    font-family: 'Pr';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    transition: 0.3s all linear;
+}
+
+.registration__email__button:hover {
+    background: #283036;
+    color: #ffffffb2;
+}
+
+.registration__title {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 62px;
+}
+
+.registration__wrap {
+    padding: 240px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:100px;
+}
+
+.registration__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 55%);
+    width: 428px;
+    text-align: center;
+}
+
+.registration__desc{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    align-items: center;
+}

@@ -1,0 +1,144 @@
+.newcomer__card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    opacity: 78%;
+    transition: 0.3s all linear;
+    border: 2px solid #1E252B;
+    padding: 34px;
+    border-radius: 15px;
+    max-width: 288px;
+    width: 100%;
+    max-height: 284px;
+    height: 100%;
+}
+
+.newcomer__cards__card__title {
+    display: flex;
+    gap: 40px;
+}
+
+.newcomer__cards__card-name {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    width: 120px;
+}
+
+.newcomer__cards__card-price {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #FFA537;
+}
+
+.newcomer__cards__card-desc {
+    font-size: 16px;
+    font-weight: 400;
+    width: 246px;
+    line-height: 30px;
+    color: #ffffffb2;
+}
+
+.newcomer__cards__card-buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.newcomer__cards__card-icons {
+    display: flex;
+    gap: 28px;
+}
+
+.newcomer__cards__card-button {
+    padding: 8px 34px;
+    border: 2px solid #1E252B;
+    transition: 0.2s linear all;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.newcomer__cards__card-button:hover {
+    background: #FF6E30;
+    transform: translateY(-10px);
+    border: 2px solid #FF6E30;
+}
+
+.newcomer__card:hover {
+    opacity: 100%;
+    border: 2px solid #ffffff08;
+    transform: translateY(-20px);
+    background: url(../img/newcomerBG.png);
+
+}
+
+.svg-like {
+    fill: #fff;
+    transition: 0.3s linear all;
+}
+
+.svg-like:hover {
+    fill: #FD3B41;
+    fill-opacity: 100%;
+}
+
+.newcomer__cards {
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.newcomer__desc__title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    color: #fff;
+    font-family: 'Pb', sans-serif;
+}
+
+.newcomer__desc__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 428px;
+    color: rgba(255, 255, 255, 55%);
+}
+
+.newcomer__wrap {
+    display: flex;
+    gap: 198px;
+}
+
+.newcomer__desc {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.newcomer {
+    margin-top: 100px;
+}
+
+.newcomer__desc__button {
+    padding: 14px 38px;
+    background: #FF6E30;
+    border: 2px #FF6E30 solid;
+    color: #fff;
+    width: 198PX;
+    text-align: center;
+    font-family: 'Pr';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-top: 30px;
+    border-radius: 8px;
+    transition: 0.3s linear all;
+}
+
+.newcomer__desc__button:hover {
+    background: #1E252B;
+    color: #ffffffb2;
+    transform: translateY(-10px);
+}

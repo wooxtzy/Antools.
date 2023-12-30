@@ -1,0 +1,14 @@
+@font-face{
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-family: 'Pb';
+}
+
+@font-face{
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-family: 'Pr';
+}
+
+@font-face{
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: 'Rr';
+}

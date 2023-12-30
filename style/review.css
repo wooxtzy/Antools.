@@ -1,0 +1,87 @@
+.svg__arrow {
+    transition: 0.3s all linear;
+}
+
+.svg__arrow:hover {
+    stroke: #FF6E30;
+    stroke-opacity: 100%;
+}
+
+.review__item {
+    display: flex;
+    align-items: center;
+    gap: 124px;
+}
+
+.review__img__name-richard {
+    color: rgba(255, 253, 253, 78%);
+    font-family: 'Pb' sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+}
+
+.review__img__name-prof {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 253, 253, 55%);
+}
+
+.review__img__name {
+    background: url(../img/reviewBG.png);
+    padding: 10px 22px;
+    max-width: 265px;
+    width: 100%;
+    position: absolute;
+    transform: translateY(-120px);
+    right: 0;
+}
+
+.review {
+    margin-top: 200px;
+}
+
+.review__img {
+    position: relative;
+}
+
+.review__all {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+
+.review__desc-text {
+    width: 394px;
+    height: 180px;
+    font-family: 'Rr';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: rgba(255, 253, 253, 78%);
+}
+
+.review__desc__image{
+    position: absolute;
+    left:-50px;
+    top: -50px;
+}
+
+.review__desc{
+    position: relative;
+}
+
+.review__under{
+    display: flex;
+    gap: 18px;
+    margin: 0 auto;
+}
+
+.review__wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
